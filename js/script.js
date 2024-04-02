@@ -8,7 +8,8 @@ const progressContainer = document.getElementById("progress-container");
 const title = document.getElementById("title");
 const cover = document.getElementById("cover");
 
-const songs = ["Seemawan", "Siththarawi", "Sobani","Suthraya","Thaniwena","Viramayak" ];
+const songs = ["Aaley Wandanawak", "Alinde", "Ape Hadhakam","Hadaganna Me Hitha","Hadakari","Highway wage yan","Kasi Saban Pena","Maga Haree","Mathaka Makala","Mithya Mayam","Nimawa" ];
+
 let songIndex = 1;
 
 function getSongTitle(song) {
@@ -17,8 +18,8 @@ function getSongTitle(song) {
 
 function loadSong(song) {
   title.innerText = getSongTitle(song);
-  audio.src = `https://github.com/sachiofficial/music/blob/main/${song}.mp3?raw=true`;
-  cover.src = `https://github.com/sachiofficial/music/blob/main/images/logo.png?raw=true`;
+  audio.src = `https://github.com/sachiofficial/music/blob/main/song/${song}.mp3?raw=true`;
+  cover.src = `https://github.com/sachiofficial/music/blob/main/cover%20images/${song}.png?raw=true`;
 }
 
 function playSong() {

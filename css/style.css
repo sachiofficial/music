@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
 
-body {
-  touch-action: manipulation;
-}
+/* Remove blue highlight in mobile view */
 
-/* Disable blue highlight on button click */
-*:focus {
-  outline: none;
+* {
+  -webkit-tap-highlight-color: transparent;
 }
 
 * {

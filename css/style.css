@@ -276,26 +276,41 @@
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .gallery {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Change to 3 columns */
-  grid-gap: 80px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 100px;
   margin: 70px;
   margin-top: 150px;
-  margin-bottom: 100px;
 }
 
 .image-container {
-  aspect-ratio: 1/1;
+  max-width: 330px;
+  position: relative;
   overflow: hidden;
   border-radius: 28px;
   transition: transform 1s ease;
   width: 100%;
+  height: 85%;
   justify-content: center;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-
+  display: block;
 }
 
 .image-container:hover {
@@ -304,17 +319,16 @@
 }
 
 .image-container img {
-  width: 100%;
+  width: 200%;
   height: auto;
   transition: transform 1s ease;
-  margin-bottom: 500px;
 }
 
 .image-container:hover img {
   transform: scale(1);
 }
 
-.play-icon {
+.download-icon {
   position: fixed;
   bottom: 5px;
   width: 5px;
@@ -322,21 +336,21 @@
   background-color: transparent;
   padding: 5px;
   transition: transform 2s ease;
-  right: 50px;
+  right: 30px;
 }
 
 .image-container:hover .download-icon {
   transform: scale(1);
 }
 
-.play-icon a {
+.download-icon a {
   text-decoration: none;
   color: #ffffff;
   display: block;
 }
 
-.play-icon i {
-  font-size: 40px; /* Adjust the icon size as needed */
+.download-icon i {
+  font-size: 20px; /* Adjust the icon size as needed */
   color: hsl(88, 100%, 50%);
 }
 
@@ -356,19 +370,15 @@
     .gallery {
       display: grid;
       grid-template-columns: repeat(3, 1fr); /* Change to 3 columns */
-      grid-gap: 80px;
+      grid-gap: 100px;
       margin: 70px;
-      margin-top: 0px;
-      margin-bottom: 100px;
-
     }
   
     .gallery img {
-      width: 100%;
+      width: 200%;
       height: auto;
       transition: transform 1s ease;
       border-radius: 28px;
-
     }
   
     .gallery img:hover {
@@ -394,12 +404,10 @@
         grid-template-columns: repeat(2, 1fr); /* Change to 3 columns */
         grid-gap: 100px;
         margin: 70px;
-        margin-top: 150px;
-        margin-bottom: 110px;
       }
     
       .gallery img {
-        width: 100%;
+        width: 200%;
         height: auto;
         transition: transform 1s ease;
         border-radius: 28px;
@@ -422,7 +430,6 @@
         grid-gap: 60px;
         margin: 40px;
         margin-top: 150px;
-        margin-bottom: 120px;
       }
     
       .gallery img.hidden {
@@ -432,14 +439,9 @@
         text-align: right;
       }
       .image-container img {
-        width: 100%;
+        width: 200%;
         height: auto;
         transition: transform 5s ease;
-      }
-      .image-container {
-        
-        width: 90%;
-      
       }
     }
     

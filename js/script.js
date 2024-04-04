@@ -15,41 +15,100 @@ const cover = document.getElementById("cover");
 //SONGS HOME PAGE ------------------------
 
 
-document.getElementById("play2").addEventListener("click", () => {
+document.getElementById("play100").addEventListener("click", () => {
   loadSong("Nimawa");
   playSong();
 });
 
 
-document.getElementById("play3").addEventListener("click", () => {
-  loadSong("Ape Hadhakam");
+document.getElementById("play99").addEventListener("click", () => {
+  loadSong("Hena Ketayam");
   playSong();
 });
 
 
-document.getElementById("play4").addEventListener("click", () => {
+document.getElementById("play98").addEventListener("click", () => {
+  loadSong("Nohithunata");
+  playSong();
+});
+
+
+document.getElementById("play97").addEventListener("click", () => {
   loadSong("Alinde");
   playSong();
 });
 
 
-document.getElementById("play5").addEventListener("click", () => {
+document.getElementById("play96").addEventListener("click", () => {
   loadSong("Hadakari");
   playSong();
 });
 
 
-document.getElementById("play6").addEventListener("click", () => {
+document.getElementById("play95").addEventListener("click", () => {
   loadSong("Mathaka Makala");
   playSong();
 });
 
 
-document.getElementById("play7").addEventListener("click", () => {
+document.getElementById("play94").addEventListener("click", () => {
   loadSong("Kasi Saban Pena");
   playSong();
 });
 
+
+document.getElementById("play93").addEventListener("click", () => {
+  loadSong("Ape Hadhakam");
+  playSong();
+});
+
+
+document.getElementById("play92").addEventListener("click", () => {
+  loadSong("Zhurek");
+  playSong();
+});
+
+
+document.getElementById("play91").addEventListener("click", () => {
+  loadSong("Neth Manema");
+  playSong();
+});
+
+
+document.getElementById("play90").addEventListener("click", () => {
+  loadSong("Heena Miyadi");
+  playSong();
+});
+
+
+document.getElementById("play89").addEventListener("click", () => {
+  loadSong("Highway wage yan");
+  playSong();
+});
+
+
+document.getElementById("play88").addEventListener("click", () => {
+  loadSong("Maga Haree");
+  playSong();
+});
+
+
+document.getElementById("play87").addEventListener("click", () => {
+  loadSong("Hadaganna Me Hitha");
+  playSong();
+});
+
+
+document.getElementById("play86").addEventListener("click", () => {
+  loadSong("Aaley Wandanawak");
+  playSong();
+});
+
+
+document.getElementById("play85").addEventListener("click", () => {
+  loadSong("Mithya Mayam");
+  playSong();
+});
 
 
 // SONG NAMES --------------------
@@ -65,8 +124,16 @@ const songs = [
   "Maga Haree",
   "Mathaka Makala",
   "Mithya Mayam",
-  "Nimawa"
+  "Nimawa",
+  "Nohithunata",
+  "Zhurek",
+  "Neth Manema",
+  "Hena Ketayam",
+  "Heena Miyadi"
+
 ];
+
+
 let songIndex = 0;
 
 // Function to capitalize song title

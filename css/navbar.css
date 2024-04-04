@@ -323,6 +323,7 @@
   box-shadow: var(--shadow-1);
   border-block-end: 1px solid var(--bg-prussian-blue);
   animation: slideIn 0.5s ease forwards;
+  
 }
 
 @keyframes slideIn {
@@ -362,6 +363,7 @@
   transform: translateX(-340px);
   visibility: visible;
   transition: 0.5s var(--cubic-out);
+  
 }
 a.active {
   color: hsla(199, 89%, 49%, 1);

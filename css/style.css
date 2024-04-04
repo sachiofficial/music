@@ -12,10 +12,7 @@
 
 
 
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 /*-------------------- LOADER --------------------*/
 
 
@@ -30,14 +27,6 @@
   justify-content: center;
   align-items: center;
   z-index: 9999;
-<<<<<<< Updated upstream
-  background: hsl(0, 0%, 0%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 9999; 
-=======
->>>>>>> Stashed changes
 }
 
 * {
@@ -62,14 +51,6 @@
   animation-name: ball;
 }
 
-<<<<<<< Updated upstream
-@media (prefers-color-scheme: dark) {
-  .loading-screen {
-    background: hsl(0, 0%, 0%); 
-  }
-}
-
-=======
 
 /* Override system preference for dark mode */
 @media (prefers-color-scheme: light) {
@@ -79,7 +60,6 @@
 }
 
 
->>>>>>> Stashed changes
 @keyframes ring {
   from {
     stroke-dasharray: 0 257 0 0 1 0 0 258;
@@ -121,10 +101,6 @@
   }
 }
 
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 /*-------------------- MUSIC CONTROLER --------------------*/
 
 .music-container {
@@ -759,11 +735,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-<<<<<<< Updated upstream
-  background: hsl(223, 10%, 90%);
-=======
   background: hsl(0, 0%, 0%);
->>>>>>> Stashed changes
   display: flex;
   justify-content: center;
   align-items: center;
@@ -792,11 +764,7 @@
   animation-name: ball;
 }
 
-<<<<<<< Updated upstream
-@media (prefers-color-scheme: dark) {
-=======
 @media (prefers-color-scheme: light) {
->>>>>>> Stashed changes
   .loading-screen {
     background: hsl(0, 0%, 0%); 
   }

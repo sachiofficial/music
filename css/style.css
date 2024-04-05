@@ -828,6 +828,7 @@
   display: inline-flex;
   position: fixed;
   right: 15%;
+  top: 25px;
 
 }
 
@@ -864,7 +865,7 @@
   overflow: auto;
   border: 1px solid #dddddd00;
   z-index: 1;
-  top:70px;
+  top:50px;
   height: 48vh;
   border-radius: 10%;
   
@@ -904,8 +905,9 @@
     border: none;
     cursor: pointer;
     display: grid;
-    top: 120px;
-    right:100px;
+    position: relative;
+    top: 0px;
+    right:-55%;
   
   }
 
@@ -913,12 +915,12 @@
     display: flexbox;
     position: fixed;
     background-color: #000000aa;
-    width: 10px;
-    height: 220px;
+    width: 100%;
+    height:700px;
     border: 1px solid #dddddd00;
     z-index: 1;
     border-radius: 10%;
-    top: 160px;
+    top: 75px;
     right:10px;
     
   }

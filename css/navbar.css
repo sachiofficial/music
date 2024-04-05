@@ -241,6 +241,7 @@
     padding: 8px 16px;
     border-radius: var(--radius-6);
   }
+
   
   .btn-secondary {
     padding: 18px 30px;
@@ -412,6 +413,7 @@ a.active {
 .navbar .link-list {
   columns: 2;
   -webkit-columns: 2;
+ margin-bottom: 60px;
 }
 
 .navbar-bottom-link {
@@ -573,6 +575,12 @@ a.active {
     grid-template-columns: 1fr 1fr;
     align-items: center;
   }
+    .header .btn {
+      display: block;
+      
+    }
+
+  }
 
 
 
@@ -604,6 +612,9 @@ a.active {
     border-block-end: none;
     display: flex;
     gap: 40px;
+    position: fixed;
+    top: 27px;
+    left: 38%;
 
   }
   
@@ -624,4 +635,4 @@ a.active {
   .hero .container { max-width: 1050px; }
 
   }
-}
+

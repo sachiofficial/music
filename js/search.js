@@ -93,3 +93,9 @@
          $('html, body').scrollTop($("#play90").offset().top);
       });
    });
+
+   $(document).ready(function(){
+      $("#SithuwamHade").click(function(){
+         $('html, body').scrollTop($("#play84").offset().top);
+      });
+   });

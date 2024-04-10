@@ -111,6 +111,12 @@ document.getElementById("play85").addEventListener("click", () => {
 });
 
 
+document.getElementById("play84").addEventListener("click", () => {
+  loadSong("Sithuwam Hade");
+  playSong();
+});
+
+
 // SONG NAMES --------------------
 
 const songs = [
@@ -129,7 +135,8 @@ const songs = [
   "Zhurek",
   "Neth Manema",
   "Hena Ketayam",
-  "Heena Miyadi"
+  "Heena Miyadi",
+  "Sithuwam Hade"
 
 ];
 
